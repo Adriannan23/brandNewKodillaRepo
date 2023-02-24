@@ -1,13 +1,35 @@
-.container {
+font-family: "Zeyada", cursive;
+font-family: "Playfair Display", serif;
+
+h1 {
+  font-family: Zeyada;
+}
+
+p {
+  font-family: Playfair Display;
+  font-style: italic;
+  color: #5f9ea0;
+}
+
+.box {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-
-  align-items: center;
-  flex-direction: column;
+.text {
+  font-family: "Playfair Display";
 }
+/* header {
+  display: flex;
+}
+
+
+
+p {
+  align-items: center;
+  flex-wrap: wrap;
+}
+li {
+  list-style-type: none;
+} */
